@@ -13,7 +13,9 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#home" aria-label="Let's Bake">
-        <span class="brand-mark">LB</span>
+        <span class="brand-mark">
+          <img src="assets/lets-bake-logo-reference.jpg" alt="Let's Bake logo reference from product packaging" />
+        </span>
         <span>
           <strong>Let's Bake</strong>
           <small>Sales Hub</small>
@@ -32,7 +34,11 @@
 
     <main id="home">
       <section class="hero">
-        <img src="assets/hero-baking-sales-hub.png" alt="منتجات ومكونات مخبوزات وحلويات" />
+        <div class="hero-photo-grid" aria-hidden="true">
+          <img src="assets/product-cream-caramel.jpg" alt="" />
+          <img src="assets/product-cherry-jelly.jpg" alt="" />
+          <img src="assets/product-dumpling-mix.jpg" alt="" />
+        </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
           <p class="eyebrow">مركز مبيعات رقمي لمنتجات المخابز والحلويات</p>
@@ -97,31 +103,31 @@
         </div>
         <div class="product-grid">
           <article class="product-card" data-product="خلطة كيك فانيلا">
-            <div class="product-visual vanilla"></div>
-            <p>خلطات الكيك</p>
-            <h3>خلطة كيك فانيلا</h3>
-            <span>للبيوت والمخابز - أحجام متعددة</span>
+            <img class="product-photo" src="assets/product-dumpling-mix.jpg" alt="عبوة لقمة القاضي من Let's Bake" />
+            <p>خلطات التحضير</p>
+            <h3>لقمة القاضي</h3>
+            <span>منتج مصور من عبوة Let's Bake المنشورة لدى الموزعين</span>
             <button class="wa-button" type="button">اطلب عبر واتساب</button>
           </article>
           <article class="product-card" data-product="كريم كراميل">
-            <div class="product-visual caramel"></div>
+            <img class="product-photo" src="assets/product-cream-caramel.jpg" alt="عبوة كريم كراميل من Let's Bake" />
             <p>حلويات جاهزة</p>
             <h3>كريم كراميل</h3>
             <span>تحضير سريع وطعم ثابت</span>
             <button class="wa-button" type="button">اطلب عبر واتساب</button>
           </article>
-          <article class="product-card" data-product="بودرة الكاسترد">
-            <div class="product-visual custard"></div>
-            <p>كاسترد وكريمات</p>
-            <h3>بودرة الكاسترد</h3>
-            <span>للحشوات، الكاسات، والتزيين</span>
+          <article class="product-card" data-product="جيلي ليمون">
+            <img class="product-photo" src="assets/product-lemon-jelly.jpg" alt="عبوة جيلي ليمون من Let's Bake" />
+            <p>جيلي</p>
+            <h3>جيلي ليمون</h3>
+            <span>لون واضح وهوية عبوة بنفسجي وذهبي</span>
             <button class="wa-button" type="button">اطلب عبر واتساب</button>
           </article>
-          <article class="product-card" data-product="حشوات الفواكه">
-            <div class="product-visual berry"></div>
-            <p>حشوات</p>
-            <h3>حشوات الفواكه</h3>
-            <span>للكيك، الدونات، والتارت</span>
+          <article class="product-card" data-product="جيلي كرز">
+            <img class="product-photo" src="assets/product-cherry-jelly.jpg" alt="عبوة جيلي كرز من Let's Bake" />
+            <p>جيلي</p>
+            <h3>جيلي كرز</h3>
+            <span>صورة منتج فعلية قابلة للاستبدال بصور الشركة الأصلية</span>
             <button class="wa-button" type="button">اطلب عبر واتساب</button>
           </article>
         </div>

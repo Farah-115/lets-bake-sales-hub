@@ -9,6 +9,11 @@ Demo commercial website for Let's Bake, designed as a sales hub that turns produ
 - Wholesale lead form
 - Distributor and store discovery concept
 - Responsive Arabic RTL layout
+- Product photos inspired by publicly visible Let's Bake packaging
+
+## Brand Asset Note
+
+The current logo image is a temporary reference cropped from visible product packaging. For a final public launch, replace `assets/lets-bake-logo-reference.jpg` with the official logo file provided by Let's Bake to avoid recreating or imitating their trademark.
 
 ## Deploy With GitHub Pages
 
@@ -21,4 +26,3 @@ Demo commercial website for Let's Bake, designed as a sales hub that turns produ
    - Branch: `main`
    - Folder: `/root`
 6. Save, then wait for GitHub to publish the site.
-

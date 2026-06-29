@@ -3,178 +3,189 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Let's Bake Sales Hub</title>
+    <title>Let's Bake Jordan | منتجات الحلويات والمخابز</title>
     <meta
       name="description"
-      content="كتالوج تجاري ووصفات وطلبات جملة لمنتجات Let's Bake في الأردن."
+      content="منتجات Let's Bake للحلويات والمخابز في الأردن: جيلي، كريم كراميل، خلطات تحضير، وصفات، وطلبات جملة للمخابز والمحلات."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#home" aria-label="Let's Bake">
-        <span class="brand-mark">
-          <img src="assets/lets-bake-official-page-logo.jpg" alt="Let's Bake logo used on official social pages" />
-        </span>
-        <span>
-          <strong>Let's Bake</strong>
-          <small>Sales Hub</small>
-        </span>
+        <img src="assets/lets-bake-official-page-logo.jpg" alt="Let's Bake" />
       </a>
+
       <nav class="nav" aria-label="روابط الموقع">
         <a href="#products">المنتجات</a>
-        <a href="#recipes">الوصفات</a>
-        <a href="#wholesale">الجملة</a>
+        <a href="#recipes">وصفات</a>
+        <a href="#wholesale">للمخابز والمحلات</a>
         <a href="#stores">نقاط البيع</a>
       </nav>
-      <a class="header-action" href="https://wa.me/962798015744" target="_blank" rel="noreferrer">
-        اطلب الآن
-      </a>
+
+      <a class="header-action" href="#wholesale">طلب جملة</a>
     </header>
 
     <main id="home">
       <section class="hero">
-        <div class="hero-photo-grid" aria-hidden="true">
-          <img src="assets/product-cream-caramel.jpg" alt="" />
-          <img src="assets/product-cherry-jelly.jpg" alt="" />
-          <img src="assets/product-dumpling-mix.jpg" alt="" />
+        <div class="hero-gallery" aria-hidden="true">
+          <img class="hero-main-product" src="assets/product-cream-caramel.jpg" alt="" />
+          <img class="hero-small hero-small-top" src="assets/product-cherry-jelly.jpg" alt="" />
+          <img class="hero-small hero-small-bottom" src="assets/product-dumpling-mix.jpg" alt="" />
         </div>
-        <div class="hero-overlay"></div>
+
         <div class="hero-content">
-          <p class="eyebrow">مركز مبيعات رقمي لمنتجات المخابز والحلويات</p>
-          <h1>حوّل متابعين Let’s Bake إلى طلبات واتساب وصفقات جملة.</h1>
-          <p class="hero-copy">
-            كتالوج رسمي، وصفات تبيع المنتج، ونموذج طلب للمخابز والكافيهات في مكان واحد.
-          </p>
+          <p class="eyebrow">Everything for Baking & Pastry</p>
+          <h1>Let’s Bake</h1>
+          <p class="hero-line">حضّر، زيّن، وقدّم حلويات بطعم ثابت وشكل يفتح النفس.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#wholesale">طلب جملة</a>
-            <a class="button secondary" href="#products">شاهد الكتالوج</a>
+            <a class="button primary" href="#products">تصفح المنتجات</a>
+            <a class="button ghost" href="#recipes">جرّب وصفة</a>
           </div>
+        </div>
+
+        <div class="hero-strip" aria-label="أقسام المنتجات">
+          <span>كريم كراميل</span>
+          <span>جيلي</span>
+          <span>خلطات تحضير</span>
+          <span>حلول للمخابز</span>
         </div>
       </section>
 
-      <section class="metrics" aria-label="أهداف الموقع">
+      <section class="trust-row" aria-label="مسارات الطلب">
         <div>
-          <strong>4</strong>
-          <span>مسارات طلب واضحة</span>
+          <strong>طلبات أسرع</strong>
+          <span>واتساب مباشر لكل منتج</span>
         </div>
         <div>
-          <strong>24/7</strong>
-          <span>كتالوج متاح للبحث والشراء</span>
-        </div>
-        <div>
-          <strong>B2B</strong>
+          <strong>للجملة</strong>
           <span>نموذج مخصص للمخابز والمحلات</span>
         </div>
         <div>
-          <strong>SEO</strong>
-          <span>صفحات منتجات تظهر على Google</span>
+          <strong>وصفات جاهزة</strong>
+          <span>أفكار تزيد استخدام المنتج</span>
+        </div>
+        <div>
+          <strong>نقاط بيع</strong>
+          <span>دليل حسب المدينة والمنطقة</span>
         </div>
       </section>
 
-      <section class="section problem-band">
-        <div class="section-heading">
-          <p class="eyebrow">النقص الحالي</p>
-          <h2>المشكلة مش بالمنتجات، المشكلة بمسار البيع.</h2>
+      <section class="section intro-section">
+        <div class="intro-copy">
+          <p class="eyebrow">Notice the difference</p>
+          <h2>منتجات واضحة على الرف، سهلة بالتحضير، ومناسبة للبيت والشغل اليومي.</h2>
         </div>
-        <div class="problem-grid">
-          <article>
-            <span>01</span>
-            <h3>المنتجات مبعثرة على السوشال</h3>
-            <p>الزبون يحتاج مكان رسمي يشوف فيه الأحجام، الاستخدامات، وطرق الطلب بدون رسائل كثيرة.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>لا يوجد funnel واضح للجملة</h3>
-            <p>أصحاب المخابز والكافيهات يحتاجون نموذج سريع يرسل الكميات والمدينة ونوع النشاط.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>الوصفات غير مرتبطة بالشراء</h3>
-            <p>المحتوى الأفضل هو وصفة تنتهي بزر “اطلب المكونات”، وهذا يحول الإلهام إلى مبيعات.</p>
-          </article>
+        <div class="intro-panel">
+          <p>
+            من عبوات الجيلي والكريم كراميل إلى خلطات التحضير، تجربة Let’s Bake تبدأ من
+            اختيار المنتج وتنتهي بطبق جاهز للبيع أو التقديم.
+          </p>
         </div>
       </section>
 
-      <section class="section" id="products">
+      <section class="section product-section" id="products">
         <div class="section-heading">
-          <p class="eyebrow">كتالوج المنتجات</p>
-          <h2>صفحات منتجات مصممة لتوليد طلبات مباشرة.</h2>
+          <p class="eyebrow">منتجات مختارة</p>
+          <h2>كتالوج مرتب يساعد الزبون يختار ويطلب بدون ضياع بين المنشورات.</h2>
         </div>
+
         <div class="product-grid">
-          <article class="product-card" data-product="خلطة كيك فانيلا">
-            <img class="product-photo" src="assets/product-dumpling-mix.jpg" alt="عبوة لقمة القاضي من Let's Bake" />
-            <p>خلطات التحضير</p>
-            <h3>لقمة القاضي</h3>
-            <span>منتج مصور من عبوة Let's Bake المنشورة لدى الموزعين</span>
-            <button class="wa-button" type="button">اطلب عبر واتساب</button>
-          </article>
           <article class="product-card" data-product="كريم كراميل">
-            <img class="product-photo" src="assets/product-cream-caramel.jpg" alt="عبوة كريم كراميل من Let's Bake" />
-            <p>حلويات جاهزة</p>
-            <h3>كريم كراميل</h3>
-            <span>تحضير سريع وطعم ثابت</span>
-            <button class="wa-button" type="button">اطلب عبر واتساب</button>
+            <img src="assets/product-cream-caramel.jpg" alt="كريم كراميل من Let's Bake" />
+            <div class="product-copy">
+              <span>حلويات جاهزة</span>
+              <h3>كريم كراميل</h3>
+              <p>قوام ناعم، صوص كراميل واضح، وخيار مناسب للبيوت ومحلات الحلويات.</p>
+              <button class="wa-button" type="button">استفسار واتساب</button>
+            </div>
           </article>
-          <article class="product-card" data-product="جيلي ليمون">
-            <img class="product-photo" src="assets/product-lemon-jelly.jpg" alt="عبوة جيلي ليمون من Let's Bake" />
-            <p>جيلي</p>
-            <h3>جيلي ليمون</h3>
-            <span>لون واضح وهوية عبوة بنفسجي وذهبي</span>
-            <button class="wa-button" type="button">اطلب عبر واتساب</button>
-          </article>
+
           <article class="product-card" data-product="جيلي كرز">
-            <img class="product-photo" src="assets/product-cherry-jelly.jpg" alt="عبوة جيلي كرز من Let's Bake" />
-            <p>جيلي</p>
-            <h3>جيلي كرز</h3>
-            <span>صورة منتج فعلية قابلة للاستبدال بصور الشركة الأصلية</span>
-            <button class="wa-button" type="button">اطلب عبر واتساب</button>
+            <img src="assets/product-cherry-jelly.jpg" alt="جيلي كرز من Let's Bake" />
+            <div class="product-copy">
+              <span>جيلي</span>
+              <h3>جيلي كرز</h3>
+              <p>لون فاكهي جذاب لوصفات الكاسات، البوفيهات، والحلويات الباردة.</p>
+              <button class="wa-button" type="button">استفسار واتساب</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-product="جيلي ليمون">
+            <img src="assets/product-lemon-jelly.jpg" alt="جيلي ليمون من Let's Bake" />
+            <div class="product-copy">
+              <span>جيلي</span>
+              <h3>جيلي ليمون</h3>
+              <p>نكهة منعشة ولون مشرق، مناسب للكاسات والطبقات الصيفية.</p>
+              <button class="wa-button" type="button">استفسار واتساب</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-product="خلطة لقمة القاضي">
+            <img src="assets/product-dumpling-mix.jpg" alt="خلطة لقمة القاضي من Let's Bake" />
+            <div class="product-copy">
+              <span>خلطات تحضير</span>
+              <h3>لقمة القاضي</h3>
+              <p>خلطة عملية لتحضير سريع بنتيجة ثابتة للمحلات والطلبات المنزلية.</p>
+              <button class="wa-button" type="button">استفسار واتساب</button>
+            </div>
           </article>
         </div>
       </section>
 
-      <section class="section recipes-band" id="recipes">
+      <section class="section recipes-section" id="recipes">
         <div class="section-heading">
-          <p class="eyebrow">Recipe-to-Cart</p>
-          <h2>كل وصفة تتحول إلى سلة طلب.</h2>
+          <p class="eyebrow">وصفات Let’s Bake</p>
+          <h2>أفكار جاهزة تخلي المنتج يتحرك من الرف إلى سلة الطلب.</h2>
         </div>
-        <div class="recipe-layout">
-          <article class="recipe-feature">
-            <p class="tag">وصفة مقترحة</p>
-            <h3>كيكة كاسات بالكاسترد والكراميل</h3>
+
+        <div class="recipe-feature">
+          <div class="recipe-image-stack" aria-hidden="true">
+            <img src="assets/product-cream-caramel.jpg" alt="" />
+            <img src="assets/product-cherry-jelly.jpg" alt="" />
+          </div>
+          <div class="recipe-copy">
+            <span class="pill">وصفة موسمية</span>
+            <h3>كاسات كراميل وجيلي بطبقات باردة</h3>
             <p>
-              وصفة قصيرة تستخدم الكاسترد، كريم الكراميل، وحشوة الفواكه. الزبون يشوف الفكرة
-              ويطلب المنتجات بضغطة واحدة.
+              وصفة مناسبة للبيوت، الكافيهات، ومحلات الحلويات: طبقة كراميل ناعمة، طبقة
+              جيلي فاكهي، وتقديم سريع للطلبات اليومية.
             </p>
-            <a class="button primary" href="https://wa.me/962798015744?text=%D8%A8%D8%AF%D9%8A%20%D9%85%D9%83%D9%88%D9%86%D8%A7%D8%AA%20%D9%88%D8%B5%D9%81%D8%A9%20%D9%83%D9%8A%D9%83%D8%A9%20%D8%A7%D9%84%D9%83%D8%A7%D8%B3%D8%A7%D8%AA" target="_blank" rel="noreferrer">
+            <a class="button primary" href="https://wa.me/962798015744?text=%D8%A8%D8%AF%D9%8A%20%D9%85%D9%83%D9%88%D9%86%D8%A7%D8%AA%20%D9%88%D8%B5%D9%81%D8%A9%20%D9%83%D8%A7%D8%B3%D8%A7%D8%AA%20%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84%20%D9%88%D8%AC%D9%8A%D9%84%D9%8A" target="_blank" rel="noreferrer">
               اطلب مكونات الوصفة
             </a>
-          </article>
-          <div class="recipe-list">
-            <div>
-              <strong>تشيز كيك سريع</strong>
-              <span>حشوة فواكه + كريمة + قاعدة بسكويت</span>
-            </div>
-            <div>
-              <strong>دونات محشي</strong>
-              <span>حشوة + كاسترد + صوص تزيين</span>
-            </div>
-            <div>
-              <strong>طبقات جيلي وكاسترد</strong>
-              <span>جيلي + كاسترد + كريم كراميل</span>
-            </div>
           </div>
+        </div>
+
+        <div class="recipe-grid">
+          <article>
+            <strong>بوفيه مدارس ومناسبات</strong>
+            <span>جيلي كرز + جيلي ليمون + أكواب تقديم</span>
+          </article>
+          <article>
+            <strong>حلى كاسات للكافيه</strong>
+            <span>كريم كراميل + طبقة بسكويت + توبينغ</span>
+          </article>
+          <article>
+            <strong>طلب يومي للمخابز</strong>
+            <span>لقمة القاضي + صوصات + تغليف جاهز</span>
+          </article>
         </div>
       </section>
 
-      <section class="section" id="wholesale">
-        <div class="section-heading">
-          <p class="eyebrow">طلبات الجملة</p>
-          <h2>نموذج بسيط يجمع lead جاهز للبيع.</h2>
+      <section class="section wholesale-section" id="wholesale">
+        <div class="wholesale-copy">
+          <p class="eyebrow">للمخابز، الكافيهات، ومحلات الحلويات</p>
+          <h2>اطلب كميات الجملة وخلي فريق Let’s Bake يتواصل معك.</h2>
+          <p>
+            نموذج واحد يجمع اسم النشاط، المدينة، نوع الطلب، والكميات المتوقعة، ويرسلها
+            مباشرة على واتساب بدون مكالمات متكررة أو تفاصيل ناقصة.
+          </p>
         </div>
+
         <form class="lead-form" id="leadForm">
           <label>
-            اسم المحل أو المخبز
+            اسم النشاط
             <input name="business" type="text" placeholder="مثال: مخبز النخبة" required />
           </label>
           <label>
@@ -196,41 +207,46 @@
               <option>محل حلويات</option>
               <option>كافيه</option>
               <option>موزع</option>
-              <option>استخدام منزلي بكميات</option>
+              <option>طلب منزلي بكميات</option>
             </select>
           </label>
           <label>
-            المنتجات المطلوبة
-            <textarea name="items" placeholder="اكتب المنتجات والكميات المتوقعة" required></textarea>
+            المنتجات والكميات
+            <textarea name="items" placeholder="مثال: 20 كرتونة كريم كراميل + 15 كرتونة جيلي كرز" required></textarea>
           </label>
-          <button class="button primary form-submit" type="submit">إرسال الطلب على واتساب</button>
+          <button class="button primary form-submit" type="submit">إرسال على واتساب</button>
         </form>
       </section>
 
-      <section class="section stores-band" id="stores">
+      <section class="section stores-section" id="stores">
         <div class="section-heading">
-          <p class="eyebrow">Where to Buy</p>
-          <h2>حوّل انتشار الموزعين إلى مبيعات قابلة للقياس.</h2>
+          <p class="eyebrow">وين تلاقي منتجاتنا؟</p>
+          <h2>نقاط بيع وموزعين حسب المدينة، مع مساحة لانضمام موزعين جدد.</h2>
         </div>
+
         <div class="stores-grid">
           <article>
+            <span>01</span>
             <h3>عمّان</h3>
-            <p>نقاط بيع وموزعين مع زر اتجاهات واتصال.</p>
+            <p>قائمة موزعين وروابط اتجاهات لكل منطقة.</p>
           </article>
           <article>
+            <span>02</span>
             <h3>إربد والزرقاء</h3>
-            <p>قائمة موزعين قابلة للتوسع حسب المدينة والمنطقة.</p>
+            <p>توسيع حضور المنتجات خارج العاصمة بشكل واضح للزبون.</p>
           </article>
           <article>
+            <span>03</span>
             <h3>انضم كموزع</h3>
-            <p>نموذج خاص لتجار التجزئة يفتح قناة دخل جديدة.</p>
+            <p>مسار مستقل للتجار يفتح طلبات توزيع جديدة.</p>
           </article>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Demo concept for Let’s Bake - built to increase inquiries, wholesale leads, and product discovery.</p>
+      <img src="assets/lets-bake-official-page-logo.jpg" alt="Let's Bake" />
+      <p>Let’s Bake Jordan - Everything for Baking & Pastry</p>
       <a href="https://wa.me/962798015744" target="_blank" rel="noreferrer">تواصل واتساب</a>
     </footer>
 

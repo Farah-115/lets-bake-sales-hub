@@ -10,7 +10,7 @@ document.querySelectorAll(".product-card").forEach((card) => {
   const button = card.querySelector(".wa-button");
 
   button.addEventListener("click", () => {
-    openWhatsApp(`مرحبا، بدي استفسر عن ${productName} من منتجات Let's Bake.`);
+    openWhatsApp(`مرحبا، بدي أستفسر عن ${productName} من منتجات Let's Bake.`);
   });
 });
 

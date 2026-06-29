@@ -334,11 +334,35 @@ h2 {
   min-height: 420px;
 }
 
-.product-card img {
+.product-media {
+  align-items: center;
+  background: linear-gradient(145deg, #23092f, #4c1666 54%, #1a0624);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  min-height: 310px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.product-card.featured .product-media {
+  min-height: 100%;
+}
+
+.product-media img {
   aspect-ratio: 1;
-  background: var(--plum-950);
-  height: 100%;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
   object-fit: cover;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.product-card.featured .product-media img {
   width: 100%;
 }
 

@@ -13,7 +13,7 @@ Demo commercial website for Let's Bake, designed as a sales hub that turns produ
 
 ## Brand Asset Note
 
-The current logo image is a temporary reference cropped from visible product packaging. For a final public launch, replace `assets/lets-bake-logo-reference.jpg` with the official logo file provided by Let's Bake to avoid recreating or imitating their trademark.
+The logo in `assets/lets-bake-official-page-logo.jpg` is pulled from the public Let's Bake Facebook page preview image for demo alignment. For final production, replace it with the official high-resolution logo file provided by Let's Bake.
 
 ## Deploy With GitHub Pages
 

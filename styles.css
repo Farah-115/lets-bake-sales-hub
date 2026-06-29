@@ -27,7 +27,7 @@ body {
   margin: 0;
   background: var(--cream);
   color: var(--ink);
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: "Tajawal", Arial, sans-serif;
   line-height: 1.7;
 }
 
@@ -71,7 +71,7 @@ a {
   color: #4f4356;
   display: flex;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 700;
   gap: 24px;
 }
 
@@ -88,7 +88,7 @@ a {
   cursor: pointer;
   display: inline-flex;
   font: inherit;
-  font-weight: 900;
+  font-weight: 800;
   justify-content: center;
   min-height: 48px;
   padding: 11px 18px;
@@ -136,7 +136,7 @@ a {
 .eyebrow {
   color: var(--gold-700);
   font-size: 13px;
-  font-weight: 900;
+  font-weight: 800;
   margin: 0 0 10px;
 }
 
@@ -149,14 +149,16 @@ p {
 
 h1 {
   color: var(--plum-800);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: clamp(70px, 9vw, 126px);
+  font-weight: 900;
   line-height: 0.9;
   margin-bottom: 20px;
 }
 
 h2 {
   font-size: clamp(32px, 4vw, 54px);
+  font-weight: 900;
   line-height: 1.16;
 }
 
@@ -265,7 +267,8 @@ h2 {
 
 .signal-strip strong {
   color: var(--gold-200);
-  font-size: 20px;
+  font-size: 21px;
+  font-weight: 800;
 }
 
 .signal-strip span {
@@ -375,11 +378,12 @@ h2 {
 .product-card span {
   color: var(--gold-700);
   font-size: 13px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .product-card h3 {
   font-size: 27px;
+  font-weight: 900;
   margin-bottom: 8px;
 }
 
@@ -495,7 +499,7 @@ label {
   color: #5f5362;
   display: grid;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 800;
   gap: 8px;
 }
 
@@ -507,6 +511,7 @@ textarea {
   border-radius: 8px;
   color: var(--ink);
   font: inherit;
+  font-weight: 500;
   min-height: 50px;
   padding: 11px 12px;
 }
